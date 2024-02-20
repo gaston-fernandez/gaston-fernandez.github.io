@@ -56,3 +56,12 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   font-family: Open Sans;
   font-size: 1rem;
 }
+
+/* Publish icon */
+
+.pubthumb {
+  float: left;
+  width: 40px;
+  height: 60px;
+  margin-right: 10px;
+}
