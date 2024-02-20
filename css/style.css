@@ -61,8 +61,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 .pubthumb {
   float: left;
-  width: 45px;
-  height: 70px;
+  width: 50px;
+  height: 85px;
   margin-right: 10px;
 }
 
