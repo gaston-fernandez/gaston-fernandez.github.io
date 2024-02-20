@@ -1,0 +1,10 @@
+@article{rammer2022artificial,
+  title={Artificial intelligence and industrial innovation: Evidence from German firm-level data},
+  author={Rammer, Christian and Fern{\'a}ndez, Gast{\'o}n P and Czarnitzki, Dirk},
+  journal={Research Policy},
+  volume={51},
+  number={7},
+  pages={104555},
+  year={2022},
+  publisher={Elsevier}
+}
