@@ -80,3 +80,14 @@ h6 {
   color: #999;
   font-weight: 400;
 }
+
+
+span.d-block {
+  font-family: Manrope;
+  font-weight: normal;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Stack items vertically */
+}
