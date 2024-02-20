@@ -65,3 +65,12 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   height: 60px;
   margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .main-content {
+        width: 100%;
+    }
+}
