@@ -73,3 +73,10 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
         width: 100%;
     }
 }
+
+h6 {
+  font-size: 10px;
+  line-height: 11px;
+  color: #999;
+  font-weight: 400;
+}
