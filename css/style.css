@@ -136,21 +136,3 @@ span.d-block {
 
 
 
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    img {
-        max-width: 100%;
-        float: none;
-        display: block; /* Make the logo take the full width and center it on smaller screens */
-        margin: auto;
-    }
-
-    nav {
-        justify-content: center; /* Center navigation items on smaller screens */
-    }
-
-
-
-    /* Other responsive styles as previously discussed */
-}
-
