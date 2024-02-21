@@ -135,25 +135,5 @@ span.d-block {
 }
 
 
-/* Assuming .profile-and-socials wraps the image and the social icons div */
-.profile-and-socials img {
-    max-width: 35%;
-    min-width: 40px;
-    float: right;
-}
-
-@media (max-width: 600px) {
-    .profile-and-socials img {
-        float: none;
-        max-width: 100%;
-        display: block;
-        margin: 0 auto; /* Center the image on small screens */
-    }
-
-    .div-block-9_2 {
-        /* Adjustments for mobile screens if necessary */
-        text-align: center; /* Example adjustment */
-    }
-}
 
 
