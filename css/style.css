@@ -136,4 +136,24 @@ span.d-block {
 
 
 
+@media (max-width: 600px) {
+    .image-container, .icon-container {
+        float: none; /* Disable floating */
+        max-width: 100%; /* Allow the image to use the full width */
+        display: block; /* Stack the image and icon container */
+        margin: 0 auto; /* Center them in the viewport */
+        clear: both; /* Ensure they don't float next to other elements */
+    }
+
+    .image-container img, .social-icon-link img {
+        width: auto; /* Adjust the width of the images to be auto or a specific value that looks good on mobile */
+        margin: 0 auto; /* Center the images */
+        display: block; /* Ensure images are block-level for proper spacing */
+    }
+
+    /* Adjust the content container to ensure it appears below the images */
+    div[style*="margin-right: 50px;"] {
+        margin-top: 20px; /* Add some space above the content for better separation */
+    }
+}
 
