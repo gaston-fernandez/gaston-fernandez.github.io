@@ -94,7 +94,7 @@ span.d-block {
   }
   
   .menu li {
-    display: block; /* Stack menu items vertically on smaller screens */
+    /*display: block; /* Stack menu items vertically on smaller screens */
     margin-bottom: 5px; /* Add some space between menu items */
   }
   
