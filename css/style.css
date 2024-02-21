@@ -155,10 +155,7 @@ nav {
         justify-content: center; /* Center navigation items on smaller screens */
     }
 
-    .menu li {
-        display: block; /* Stack menu items vertically on smaller screens */
-        margin-bottom: 5px; /* Add some space between menu items */
-    }
+
 
     /* Other responsive styles as previously discussed */
 }
