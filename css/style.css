@@ -95,25 +95,25 @@ span.d-block {
         /* .ulb-logo {
           display: none;
         } */
-        .topnav a:not(:first-child) {
+        .nav a:not(:first-child) {
           display: none;
         }
-        .topnav a.icon {
+        .nav a.icon {
           float: right;
           display: block;
         }
       }
 
       @media screen and (max-width: 600px) {
-        .topnav.responsive {
+        .nav.responsive {
           position: relative;
         }
-        .topnav.responsive .icon {
+        .nav.responsive .icon {
           position: absolute;
           right: 0;
           top: 0;
         }
-        .topnav.responsive a {
+        .nav.responsive a {
           float: none;
           display: block;
           text-align: left;
