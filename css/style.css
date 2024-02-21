@@ -133,3 +133,33 @@ span.d-block {
     display: none; /* Hide the table header on small screens */
   }
 }
+
+
+/* Ensure the navigation menu is properly aligned with the logo */
+nav {
+    display: flex;
+    align-items: center; /* This will vertically center the navigation items with the logo */
+    flex-wrap: wrap; /* Allows nav items to wrap under the logo on smaller screens */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+        float: none;
+        display: block; /* Make the logo take the full width and center it on smaller screens */
+        margin: auto;
+    }
+
+    nav {
+        justify-content: center; /* Center navigation items on smaller screens */
+    }
+
+    .menu li {
+        display: block; /* Stack menu items vertically on smaller screens */
+        margin-bottom: 5px; /* Add some space between menu items */
+    }
+
+    /* Other responsive styles as previously discussed */
+}
+
