@@ -91,3 +91,6 @@ span.d-block {
   align-items: center; /* Center items vertically */
   flex-direction: column; /* Stack items vertically */
 }
+
+/* Papers divider */
+.tx-div.medium { width:80%;}.tx-div { height:1px;margin:7px 0 7px}
