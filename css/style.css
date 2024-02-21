@@ -96,7 +96,7 @@ span.d-block {
 .publication-divider {
   border: 0;
   height: 1px;
-  background-color: #ccc; /* Light gray color */
+  rgba(204, 204, 204, 0.5); /* Light gray color with 50% transparency */
   margin-top: 20px; /* Adjust space above the line */
   margin-bottom: 20px; /* Adjust space below the line */
 }
