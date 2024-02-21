@@ -93,4 +93,10 @@ span.d-block {
 }
 
 /* Papers divider */
-.tx-div.medium { width:80%;}.tx-div { height:1px;margin:7px 0 7px}
+.publication-divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc; /* Light gray color */
+  margin-top: 20px; /* Adjust space above the line */
+  margin-bottom: 20px; /* Adjust space below the line */
+}
