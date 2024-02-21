@@ -135,12 +135,6 @@ span.d-block {
 }
 
 
-/* Ensure the navigation menu is properly aligned with the logo */
-nav {
-    display: flex;
-    align-items: center; /* This will vertically center the navigation items with the logo */
-    flex-wrap: wrap; /* Allows nav items to wrap under the logo on smaller screens */
-}
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
