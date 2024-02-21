@@ -86,54 +86,40 @@ span.d-block {
   margin-bottom: 20px; /* Adjust space below the line */
 }
 
+ @media (max-width: 600px) {
+        body {
+            font-size: 0.8rem;
+        }
+      }
+    @media screen and (max-width: 600px) {
+        /* .ulb-logo {
+          display: none;
+        } */
+        .topnav a:not(:first-child) {
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {
+          position: relative;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
-  body {
-    padding: 0.5em;
-  }
-  
-  .menu li {
-    /*display: block; /* Stack menu items vertically on smaller screens */
-    margin-bottom: 5px; /* Add some space between menu items */
-  }
-  
-  .title, .subheading {
-    font-size: 0.9em; /* Make titles and subheadings smaller on small screens */
-  }
-  
-  pre, code {
-    padding: 0.5em; /* Reduce padding for code blocks */
-  }
-  
-  blockquote {
-    padding: 2px 0.5em; /* Adjust blockquote padding */
-  }
-  
-  .pubthumb {
-    width: 40px; /* Reduce size of publication thumbnails */
-    height: 70px;
-  }
-  
-  span.d-block {
-    padding: 0 10px; /* Add padding to elements within span.d-block for better spacing */
-  }
-  
-  /* Adjust table layout for small screens */
-  table, th, td {
-    display: block;
-  }
-  
-  th, td {
-    text-align: right; /* Align text to the right or choose a suitable alignment */
-    padding: 10px 0; /* Increase padding for readability */
-  }
-  
-  table thead {
-    display: none; /* Hide the table header on small screens */
-  }
-}
-
-
 
 
