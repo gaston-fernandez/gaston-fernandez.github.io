@@ -65,21 +65,6 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
   margin-right: 10px;
 }
 
-@media (max-width: 600px) {
-    .sidebar {
-        display: none;
-    }
-    .main-content {
-        width: 100%;
-    }
-}
-
-h6 {
-  font-size: 10px;
-/*   line-height: 11px; */
-  color: #999;
-  font-weight: 400;
-}
 
 
 span.d-block {
