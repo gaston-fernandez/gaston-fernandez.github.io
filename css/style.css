@@ -108,16 +108,7 @@ span.d-block {
         .nav.responsive {
           position: relative;
         }
-        .nav.responsive .icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .nav.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
+      
       }
 
 /* Responsive adjustments */
