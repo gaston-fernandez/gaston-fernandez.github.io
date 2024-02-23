@@ -86,31 +86,6 @@ span.d-block {
   margin-bottom: 20px; /* Adjust space below the line */
 }
 
- @media (max-width: 600px) {
-        body {
-            font-size: 0.8rem;
-        }
-      }
-    @media screen and (max-width: 600px) {
-        /* .ulb-logo {
-          display: none;
-        } */
-        .nav a:not(:first-child) {
-          display: none;
-        }
-        .nav a.icon {
-          float: right;
-          display: block;
-        }
-      }
-
-      @media screen and (max-width: 600px) {
-        .nav.responsive {
-          position: relative;
-        }
-      
-      }
-
 /* Responsive adjustments */
 
 
