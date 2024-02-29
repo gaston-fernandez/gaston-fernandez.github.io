@@ -89,3 +89,14 @@ span.d-block {
 /* Responsive adjustments */
 
 
+.content-area {
+  text-align: justify;
+  margin-right: 20px; /* Default margin for mobile, adjust as needed */
+}
+
+@media (min-width: 768px) {
+  /* For tablets and larger screens */
+  .content-area {
+    margin-right: 300px; /* Larger margin for larger screens */
+  }
+}
