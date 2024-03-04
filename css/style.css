@@ -33,7 +33,7 @@ code { background: #f9f9f9; }
 pre code { background: none; }
 
 /* misc elements */
-iframe, video { max-width: 100%; }
+img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
   background: #f9f9f9;
@@ -86,7 +86,6 @@ span.d-block {
   margin-bottom: 20px; /* Adjust space below the line */
 }
 
-/* Responsive adjustments */
 
 
 .content-area {
