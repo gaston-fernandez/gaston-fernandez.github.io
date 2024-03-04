@@ -100,3 +100,69 @@ span.d-block {
     margin-right: 300px; /* Larger margin for larger screens */
   }
 }
+
+
+
+/* Adjust the profile image for mobile */
+.profile-img {
+  display: block; /* Remove float and center the image */
+  margin: 0 auto; /* Center the image */
+  max-width: 100%; /* Make sure it is not larger than the container */
+  width: auto; /* Scale the width according to the max-width */
+}
+
+/* Center the title below the image */
+.title {
+  text-align: center; /* Center align the title */
+  margin-top: 20px; /* Give some space above the title */
+}
+
+/* Adjust the content area */
+.content-area {
+  text-align: left; /* Align the text to the left */
+  padding: 0 15px; /* Give some padding on the sides */
+}
+
+/* Use media queries to adjust layout for mobile screens */
+@media (max-width: 768px) {
+  .menu li {
+    display: block; /* Stack the menu items vertically */
+    margin-bottom: 10px; /* Add space between menu items */
+  }
+
+  .menu, .article-meta, footer {
+    text-align: center; /* Center align the text for small screens */
+  }
+
+  /* Remove right float from the image */
+  img {
+    float: none;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+
+  /* Ensure the name is displayed below the image */
+  h1.title {
+    text-align: center;
+    order: 2; /* Position the title after the image */
+  }
+
+  /* Adjust the content area for mobile */
+  .content-area {
+    order: 3; /* Position the content area after the title */
+    margin: 0; /* Reset the margin for mobile */
+  }
+
+  /* Clear any floats for the social icons and center them */
+  .div-block-9_2 {
+    float: none;
+    text-align: center;
+  }
+
+  /* Center the social icons and adjust the spacing */
+  .social-icon-link {
+    display: inline-block; /* Stack the icons horizontally */
+    margin: 0 10px; /* Add some space between the icons */
+  }
+}
+
