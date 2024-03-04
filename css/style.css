@@ -126,10 +126,14 @@ span.d-block {
 
 
 /* Use media queries to adjust layout for mobile screens */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .profile-img {
-    max-width: 50%; /* Adjust the size of the image for mobile */
+    /* Align the image to the right on larger screens */
+    margin: 0; /* Resets any previously set auto margin */
+    float: right; /* Aligns the image to the right */
+    max-width: 33%; /* Adjusts the size for larger screens */
   }
+}
   
   .menu li {
     margin-bottom: 10px; /* Add space between menu items */
