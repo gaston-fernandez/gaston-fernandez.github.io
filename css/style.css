@@ -107,6 +107,8 @@ span.d-block {
 .profile-img {
   display: block; /* Remove float and center the image */
   margin: 0 auto; /* Center the image */
+  max-width: 33%; /* Set a max-width for all screen sizes */
+  width: auto;
 }
 
 
