@@ -109,6 +109,7 @@ span.d-block {
   margin: 0 auto; /* Center the image */
   max-width: 33%; /* Set a max-width for all screen sizes */
   width: auto;
+  float: right;
 }
 
 
