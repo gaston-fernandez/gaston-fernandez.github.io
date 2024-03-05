@@ -235,5 +235,6 @@ span.d-block {
 @media (max-width: 768px) {
   .reference-list {
     flex-direction: column;
+    justify-content: center;
   }
 }
