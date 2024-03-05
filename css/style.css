@@ -158,13 +158,15 @@ span.d-block {
   .div-block-9_2 {
     float: none;
     text-align: center;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; 
   }
 
-  /* Center the social icons and adjust the spacing
+  /* Center the social icons and adjust the spacing*/
   .social-icon-link {
-    display: inline-block; /* Stack the icons horizontally 
-    margin: 0 10px; /* Add some space between the icons 
-  }*/
+    display: inline-block; /* Stack the icons horizontally */
+    margin: 0 10px; /* Add some space between the icons */
+  }
   
 
 }
@@ -186,6 +188,7 @@ span.d-block {
 
 .social-icon-link {
   display: inline-flex; /* Allows the a tag to be a flex container */
+  margin: 0 10px; /* Adjust the space between icons */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
 }
