@@ -170,18 +170,28 @@ span.d-block {
 }
 
 
-
 .social-icons-container {
   display: flex;
-  justify-content: center; /* Aligns the icons in the center of the container */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-wrap: nowrap; /* Prevent items from wrapping */
 }
 
 .icon-wrapper {
-  margin: 0 10px; /* This adds spacing of 10px to the left and right of each icon */
+  margin: 0 10px; /* Adjust the space between icons */
+  display: flex; /* Aligns the svg/img within the icon wrapper */
+  justify-content: center; /* Center horizontally in the icon wrapper */
+  align-items: center; /* Center vertically in the icon wrapper */
+}
+
+.social-icon-link {
+  display: inline-flex; /* Allows the a tag to be a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
 }
 
 .social-icon-link img, .social-icon-link svg {
-  width: 28px; /* This sets a consistent width for all icons */
-  height: auto; /* This maintains the aspect ratio of the images */
-  vertical-align: middle; /* This aligns the icons in the middle if they are of different heights */
+  width: 28px; /* Adjust width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  vertical-align: middle; /* Aligns the icons if they are different heights */
 }
