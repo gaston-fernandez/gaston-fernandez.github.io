@@ -209,3 +209,9 @@ span.d-block {
   height: auto; /* Maintain the aspect ratio */
   vertical-align: middle; /* Aligns the icons if they are different heights */
 }
+
+
+
+.references-section {
+  margin-top: 2em; /* Adjust space above the references
+}
