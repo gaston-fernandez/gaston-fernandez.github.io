@@ -120,7 +120,7 @@ span.d-block {
 /* Adjust the content area */
 .content-area {
   text-align: left; /* Align the text to the left */
-  padding: 0 15px; /* Give some padding on the sides */
+  padding: 0 5px; /* Give some padding on the sides */
 }
 
 
@@ -150,7 +150,7 @@ span.d-block {
 
   /* Adjust the content area for mobile */
   .content-area {
-    text-align: left;
+    text-align: justify;
     padding: 0 15px; /* Add some padding on the sides */
   }
 
