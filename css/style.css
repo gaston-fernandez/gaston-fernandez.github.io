@@ -173,7 +173,7 @@ span.d-block {
 
 .social-icons-container {
   display: flex;
-  justify-content: center; /* Center items horizontally */
+  justify-content: left; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   flex-direction: row; /* Align items horizontally */
   flex-wrap: nowrap; /* Prevent wrapping */
@@ -229,7 +229,7 @@ span.d-block {
   flex: 1; /* Each reference will grow to use available space */
   min-width: 200px; /* Minimum width for each reference */
   max-width: 250px; /* Maximum width for each reference to ensure wrapping */
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
