@@ -74,7 +74,7 @@ span.d-block {
   display: flex;
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: row; /* Stack items vertically */
 }
 
 /* Papers divider */
