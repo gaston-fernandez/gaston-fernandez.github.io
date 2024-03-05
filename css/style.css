@@ -166,3 +166,20 @@ span.d-block {
     margin: 0 10px; /* Add some space between the icons */
   }
 }
+
+
+.social-icons-container {
+  display: flex;
+  justify-content: center; /* Aligns the icons in the center of the container */
+  align-items: center; /* This will vertically align the icons if they are of different heights */
+}
+
+.icon-wrapper {
+  margin: 0 10px; /* This adds spacing of 10px to the left and right of each icon */
+}
+
+.social-icon-link img, .social-icon-link svg {
+  width: 28px; /* This sets a consistent width for all icons */
+  height: auto; /* This maintains the aspect ratio of the images */
+  vertical-align: middle; /* This aligns the icons in the middle if they are of different heights */
+}
