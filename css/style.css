@@ -174,7 +174,6 @@ span.d-block {
 .social-icons-container {
   display: flex;
   justify-content: center; /* Aligns the icons in the center of the container */
-  align-items: center; /* This will vertically align the icons if they are of different heights */
 }
 
 .icon-wrapper {
