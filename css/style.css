@@ -160,12 +160,15 @@ span.d-block {
     text-align: center;
   }
 
-  /* Center the social icons and adjust the spacing */
+  /* Center the social icons and adjust the spacing
   .social-icon-link {
-    display: inline-block; /* Stack the icons horizontally */
-    margin: 0 10px; /* Add some space between the icons */
-  }
+    display: inline-block; /* Stack the icons horizontally 
+    margin: 0 10px; /* Add some space between the icons 
+  }*/
+  
+
 }
+
 
 
 .social-icons-container {
