@@ -173,7 +173,7 @@ span.d-block {
 
 .social-icons-container {
   display: flex;
-  justify-content: left; /* Center items horizontally */
+  justify-content: flex-start; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   flex-direction: row; /* Align items horizontally */
   flex-wrap: nowrap; /* Prevent wrapping */
@@ -182,7 +182,7 @@ span.d-block {
 @media (min-width: 768px) {
   .social-icons-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
