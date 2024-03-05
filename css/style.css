@@ -171,13 +171,24 @@ span.d-block {
 
 }
 
-
 .social-icons-container {
   display: flex;
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-  flex-wrap: nowrap; /* Prevent items from wrapping */
+  flex-direction: row; /* Align items horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  margin: auto; /* Center the container on the page */
 }
+@media (min-width: 768px) {
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
 
 .icon-wrapper {
   margin: 0 10px; /* Adjust the space between icons */
