@@ -173,12 +173,14 @@ span.d-block {
 
 .social-icons-container {
   display: flex;
-  justify-content: flex-start; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  flex-direction: row; /* Align items horizontally */
-  flex-wrap: nowrap; /* Prevent wrapping */
-  margin: auto; /* Center the container on the page */
+  justify-content: center; /* This centers the icons horizontally */
+  align-items: center; /* This centers the icons vertically (if they have different heights) */
+  flex-direction: row; /* This will lay out the icons horizontally */
+  flex-wrap: wrap; /* This allows icons to wrap onto the next line on small screens */
+  padding: 0;
+  margin: 0 auto; /* This centers the container itself if it has a width */
 }
+
 @media (min-width: 768px) {
   .social-icons-container {
     display: flex;
@@ -192,9 +194,6 @@ span.d-block {
 
 .icon-wrapper {
   margin: 0 10px; /* Adjust the space between icons */
-  display: flex; /* Aligns the svg/img within the icon wrapper */
-  justify-content: center; /* Center horizontally in the icon wrapper */
-  align-items: center; /* Center vertically in the icon wrapper */
 }
 
 .social-icon-link {
@@ -211,30 +210,28 @@ span.d-block {
 }
 
 
-
+/* This will target the reference list container */
 .references-section {
   text-align: center;
   margin-top: 2em;
 }
 
+/* This will target each reference within the list */
 .reference-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; /* Center the references within the container */
-  gap: 1em; /* Add space between the reference items */
+  justify-content: center; /* This centers the references horizontally */
+  flex-wrap: wrap; /* This allows references to wrap onto the next line */
+  gap: 1em; /* Space between references */
 }
 
+/* This targets each reference item */
 .reference {
-  flex: 1; /* Each reference will grow to use available space */
-  min-width: 200px; /* Minimum width for each reference */
-  max-width: 250px; /* Maximum width for each reference to ensure wrapping */
-  text-align: center;
+  text-align: center; /* Center the text inside each reference */
+  padding: 0 10px; /* Padding on the sides of each reference */
 }
 
 @media (max-width: 768px) {
   .reference-list {
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Stack the references vertically on small screens */
   }
 }
