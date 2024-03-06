@@ -170,34 +170,30 @@ span.d-block {
   
 
 }
-
-/* This will target the social icons container and ensure the icons line up horizontally */
 .social-icons-container {
   display: flex;
-  justify-content: center; /* Center items horizontally */
+  justify-content: flex-start; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-  flex-direction: row; /* Lay out the children in a row */
-  flex-wrap: wrap; /* Allow items to wrap as needed */
-  margin: 0 auto; /* Center the container itself */
-  padding: 0;
+  flex-direction: row; /* Align items horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  margin: auto; /* Center the container on the page */
+}
+@media (min-width: 768px) {
+  .social-icons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
 
-/* This will target the individual icon wrappers within the social icons container */
+
 .icon-wrapper {
   margin: 0 10px; /* Adjust the space between icons */
-}
-
-@media (max-width: 768px) {
-  /* For small screens, ensure the icons still line up horizontally */
-  .social-icons-container {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .icon-wrapper {
-    margin: 5px; /* Adjust spacing on smaller screens if needed */
-  }
+  display: flex; /* Aligns the svg/img within the icon wrapper */
+  justify-content: center; /* Center horizontally in the icon wrapper */
+  align-items: center; /* Center vertically in the icon wrapper */
 }
 
 .social-icon-link {
@@ -212,7 +208,6 @@ span.d-block {
   height: auto; /* Maintain the aspect ratio */
   vertical-align: middle; /* Aligns the icons if they are different heights */
 }
-
 
 /* This will target the reference list container */
 .references-section {
