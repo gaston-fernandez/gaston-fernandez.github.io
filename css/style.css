@@ -173,6 +173,7 @@ span.d-block {
   flex-direction: row; /* Align items horizontally */
   flex-wrap: nowrap; /* Prevent wrapping */
   margin: auto; /* Center the container on the page */
+  margin-bottom: -20px;
 }
 @media (min-width: 768px) {
   .social-icons-container {
