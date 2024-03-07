@@ -168,7 +168,7 @@ span.d-block {
 }
 .social-icons-container {
   display: flex;
-  justify-content: flex-start; /* Center items horizontally */
+  justify-content: flex-end; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   flex-direction: row; /* Align items horizontally */
   flex-wrap: nowrap; /* Prevent wrapping */
@@ -177,7 +177,7 @@ span.d-block {
 @media (min-width: 768px) {
   .social-icons-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
