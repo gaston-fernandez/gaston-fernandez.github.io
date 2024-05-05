@@ -228,6 +228,6 @@ span.d-block {
 
 @media (max-width: 768px) {
   .reference-list {
-    flex-direction: column; /* Stack the references vertically on small screens */
+    flex-direction: row; /* Stack the references vertically on small screens */
   }
 }
