@@ -180,7 +180,7 @@ span.d-block {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
   }
 }
