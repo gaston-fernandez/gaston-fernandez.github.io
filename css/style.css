@@ -191,7 +191,7 @@ span.d-block {
   margin: 0 10px; /* Adjust the space between icons */
   display: flex; /* Aligns the svg/img within the icon wrapper */
   justify-content: center; /* Center horizontally in the icon wrapper */
-  align-items: center; /* Center vertically in the icon wrapper */
+  /*align-items: center; /* Center vertically in the icon wrapper */
 }
 
 .social-icon-link {
