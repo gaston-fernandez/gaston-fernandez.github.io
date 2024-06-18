@@ -179,11 +179,11 @@ span.d-block {
 
 @media (min-width: 768px) {
   .social-icons-container {
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;
+    /*justify-content: flex-end;
     /*align-items: center;*/
     flex-direction: row;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
   }
 }
 
