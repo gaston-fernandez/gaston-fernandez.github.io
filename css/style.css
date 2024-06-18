@@ -168,13 +168,15 @@ span.d-block {
 
 .social-icons-container {
   display: flex;
-  justify-content: flex-end; /* Center items horizontally */
+  justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   flex-direction: row; /* Align items horizontally */
   flex-wrap: nowrap; /* Prevent wrapping */
   margin: auto; /* Center the container on the page */
   margin-bottom: -20px;
+  padding: 10px; /* Ensure there is enough space inside the container */
 }
+
 @media (min-width: 768px) {
   .social-icons-container {
     display: flex;
@@ -184,7 +186,6 @@ span.d-block {
     flex-wrap: nowrap;
   }
 }
-
 
 .icon-wrapper {
   margin: 0 10px; /* Adjust the space between icons */
