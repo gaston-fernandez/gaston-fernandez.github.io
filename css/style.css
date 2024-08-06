@@ -216,20 +216,22 @@ span.d-block {
 /* This will target each reference within the list */
 .reference-list {
   display: flex;
-  justify-content: center; /* This centers the references horizontally */
-  flex-wrap: wrap; /* This allows references to wrap onto the next line */
-  gap: 1em; /* Space between references */
+  justify-content: center; /* Centers the references horizontally */
+  flex-wrap: wrap; /* Allows references to wrap onto the next line if needed */
+  gap: 2em; /* Space between references */
 }
 
 /* This targets each reference item */
 .reference {
-  text-align: center; /* Center the text inside each reference */
+  text-align: center; /* Centers the text inside each reference */
   padding: 0 10px; /* Padding on the sides of each reference */
 }
 
+/* Responsive design for small screens */
 @media (max-width: 768px) {
   .reference-list {
-    flex-direction: row; /* Stack the references vertically on small screens */
+    flex-direction: column; /* Stack the references vertically on small screens */
+    align-items: center; /* Center items when stacked */
   }
 }
 
