@@ -237,7 +237,7 @@ span.d-block {
 
 
 .social-icons a {
-  float: right;
+  float: left;
   display:inline-block;
   height:2.4rem;
   width:2.4rem;
@@ -258,7 +258,3 @@ span.d-block {
   transform:scale(1.2)
 }
 
-.references li {
-  float: left;
-  margin: 0 20px;
-}
