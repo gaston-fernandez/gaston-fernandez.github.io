@@ -232,3 +232,25 @@ span.d-block {
     flex-direction: row; /* Stack the references vertically on small screens */
   }
 }
+
+
+.social-icons a {
+  display:inline-block;
+  height:2.4rem;
+  width:2.4rem;
+  background-color:transparent;
+  color:#007bff !important;
+  border-radius:100%;
+  text-align:center;
+  font-size:1.15rem;
+  line-height:2.5rem;
+  margin-right:1rem
+}
+.social-icons a:last-child {
+  margin-right:0
+}
+.social-icons a:hover {
+  background-color:white;
+  color:black;
+  transform:scale(1.2)
+}
