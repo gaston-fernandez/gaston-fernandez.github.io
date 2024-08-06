@@ -215,7 +215,7 @@ span.d-block {
 
 /* This will target each reference within the list */
 .reference-list {
-  display: flex;
+  display: inline;
   justify-content: center; /* Centers the references horizontally */
   flex-wrap: wrap; /* Allows references to wrap onto the next line if needed */
   gap: 2em; /* Space between references */
