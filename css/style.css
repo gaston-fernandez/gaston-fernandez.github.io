@@ -60,8 +60,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 /* Publish icon */
 .pubthumb {
   float: left;
-  width: 55px;
-  height: 90px;
+  width: 85px;
+  height: 120px;
   margin-right: 10px;
 }
 
