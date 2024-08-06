@@ -258,7 +258,7 @@ span.d-block {
   transform:scale(1.2)
 }
 
-li {
+.references li {
   float: left;
   margin: 0 20px;
 }
