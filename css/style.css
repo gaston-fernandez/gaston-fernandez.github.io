@@ -118,6 +118,12 @@ span.d-block {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .profile-img {
+    max-width: 200px; /* Slightly larger on smaller screens */
+  }
+}
+
 
 /* Center the title below the image */
 .title {
