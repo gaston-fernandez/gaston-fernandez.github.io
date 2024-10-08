@@ -267,3 +267,10 @@ span.d-block {
   margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+  .third {
+    width: 100%;
+    margin: 10px 0;
+    float: none;
+  }
+}
