@@ -103,11 +103,19 @@ span.d-block {
 
 
 /* Adjust the profile image for mobile */
+/* .profile-img { */
+/*   display: block; /* Remove float and center the image */ */
+/*   margin: 0 auto; /* Center the image */ */
+/*   max-width: 33%; /* Set a max-width for all screen sizes */ */
+/*   width: auto; */
+/* } */
+
 .profile-img {
-  display: block; /* Remove float and center the image */
-  margin: 0 auto; /* Center the image */
-  max-width: 33%; /* Set a max-width for all screen sizes */
-  width: auto;
+  width: 100%;
+  max-width: 400px; /* Default size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 
