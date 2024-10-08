@@ -121,6 +121,8 @@ span.d-block {
 @media (max-width: 768px) {
   .profile-img {
     max-width: 200px; /* Slightly larger on smaller screens */
+    margin: 0 auto;
+    display: block;
   }
 }
 
