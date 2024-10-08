@@ -112,7 +112,7 @@ span.d-block {
 
 .profile-img {
   width: 100%;
-  max-width: 400px; /* Default size */
+  max-width: 300px; /* Default size */
   height: auto;
   display: block;
   margin: 0 auto;
