@@ -258,3 +258,12 @@ span.d-block {
   transform:scale(1.2)
 }
 
+.third {
+  width: 45%;
+  float: left;
+  /* Add flexbox properties */
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
