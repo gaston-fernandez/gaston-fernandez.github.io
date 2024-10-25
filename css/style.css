@@ -100,7 +100,11 @@ span.d-block {
   }
 }
 
-
+.menu li a.special-tab {
+  color: #FF5733; /* Change this to your desired color */
+  font-family: 'Arial', sans-serif; /* Replace with your desired font */
+  font-weight: bold; /* Optional: adjust for emphasis */
+}
 
 /* Adjust the profile image for mobile */
 /* .profile-img { */
