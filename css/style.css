@@ -23,7 +23,7 @@ hr {
 }
 
 .menu li a.special-tab {
-  background: #FF5733;
+  background: #eee;
   color: #FF5733; /* Change this to your desired color */
   font-family: 'Arial', sans-serif; /* Replace with your desired font */
   font-weight: bold; /* Optional: adjust for emphasis */
