@@ -54,8 +54,8 @@ table {
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     background-color: white;
-    margin-left: 0; /* Aligns the table to the left */
     border-collapse: collapse;
+    margin-left: 0;
 }
 
 th, td {
@@ -67,16 +67,15 @@ th, td {
     background: #FFFFFF;
 }
 
+th {
+    background-color: #f4f4f4;
+}
+
 /* Responsive styling */
 @media (max-width: 600px) {
-    table, th, td, tr {
+    table, tbody, th, td, tr {
         display: block;
         width: 100%;
-    }
-
-    tr {
-        margin-bottom: 15px;
-        border-bottom: 1px solid #ddd;
     }
 
     th {
@@ -86,23 +85,18 @@ th, td {
         padding: 10px 5px;
     }
 
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
     td {
         padding: 10px 5px;
         border-bottom: 1px solid #ddd;
     }
-
-    td::before {
-        content: attr(data-label);
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-right: 10px;
-        color: #666;
-    }
-
-    th, td {
-        display: block;
-    }
 }
+
+
 /* --------- TABLE */
 
 
