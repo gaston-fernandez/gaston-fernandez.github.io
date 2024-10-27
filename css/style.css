@@ -59,9 +59,11 @@ table {
 }
 
 th, td {
-    padding: 5px;
-    text-align: left;
-    border: none;
+    width: 33.33%; /* Make each column take up 33.33% of the table's width */
+    padding: 10px; /* Adds space inside table cells */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove any cell borders */
+    box-sizing: border-box; /* Include padding in the width calculation */
     background: #FFFFFF;
 }
 
