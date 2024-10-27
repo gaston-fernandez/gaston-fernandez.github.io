@@ -55,9 +55,9 @@ table {
   background-color: white;
   margin-left: 0; /* Aligns the table to the left */
 }
-table thead th { border-bottom: 1px solid #ddd; }
+table thead th { border-bottom: 1px solid #FFFFFF; }
 th, td { padding: 5px; border: none; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+thead, tfoot, tr:nth-child(even) { background: #FFFFFF; }
 
 
 .subheading {
