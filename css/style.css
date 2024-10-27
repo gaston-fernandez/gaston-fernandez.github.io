@@ -47,18 +47,62 @@ blockquote {
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
-
 table {
-/*   margin: auto; */
+  width: 100%;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
   background-color: white;
   margin-left: 0; /* Aligns the table to the left */
+  border-collapse: collapse;
 }
-table thead th { border-bottom: 1px solid #FFFFFF; }
-th, td { padding: 5px; border: none; }
-thead, tfoot, tr:nth-child(even) { background: #FFFFFF; }
 
+table thead th {
+  border-bottom: 1px solid #FFFFFF;
+  text-align: left;
+}
+
+th, td {
+  padding: 5px;
+  border: none;
+}
+
+thead, tfoot, tr:nth-child(even) {
+  background: #FFFFFF;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none; /* Hide table headers on small screens */
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #666;
+  }
+}
 
 .subheading {
   font-weight: normal;
