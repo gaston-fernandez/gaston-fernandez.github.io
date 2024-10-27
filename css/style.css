@@ -49,9 +49,11 @@ blockquote {
 }
 
 table {
-  margin: auto;
+/*   margin: auto; */
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
+  background-color: white;
+  margin-left: 0; /* Aligns the table to the left */
 }
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
