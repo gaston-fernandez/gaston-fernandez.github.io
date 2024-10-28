@@ -50,7 +50,7 @@ blockquote {
 
 /* --------- TABLE */
 table {
-    width: 100%;
+    width: auto;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     background-color: white;
