@@ -4,6 +4,9 @@ body {
   padding: 1em;
   line-height: 1.5em;
 }
+ a {
+    color: cornflowerblue; /* Change the color of all links */
+  }
 
 /* header and footer areas */
 .menu { padding: 0; }
