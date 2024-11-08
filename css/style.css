@@ -8,6 +8,11 @@ body {
     color: dodgerblue; /* Change the color of all links */
   }
 
+#petite-caps {
+  font-variant-caps: petite-caps;
+}  
+
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
