@@ -119,6 +119,8 @@ th {
   width: 75px;
   height: 110px;
   margin-right: 10px;
+  border-radius: 5px; /* Softens corners */
+  background-color: #eee;
 }
 
 
