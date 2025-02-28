@@ -116,8 +116,7 @@ th {
 /* Publish icon */
 .pubthumb {
   float: left;
-  max-width: 100%; /*width: 75px;*/
-  display: block;
+  width: 75px;
   height: auto; /*110px; */
   margin-right: 10px;
 }
