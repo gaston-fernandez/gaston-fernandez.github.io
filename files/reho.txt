@@ -1,0 +1,6 @@
+@article{fernandez2023does,
+  title={Does personality affect the allocation of resources within households?},
+  author={Fern{\'a}ndez, Gast{\'o}n P},
+  journal={arXiv preprint arXiv:2307.02918},
+  year={2023}
+}

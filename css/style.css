@@ -1,9 +1,17 @@
 body {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
 }
+ a {
+    color: dodgerblue; /* Change the color of all links */
+  }
+
+#petite-caps {
+  font-variant-caps: petite-caps;
+}  
+
 
 /* header and footer areas */
 .menu { padding: 0; }
@@ -20,6 +28,13 @@ footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
+}
+
+.menu li a.special-tab {
+  background: #eee;
+  color: dodgerblue; /* Change this to your desired color */
+/*   font-family: 'Arial', sans-serif; /* Replace with your desired font */ */
+  font-weight: bold; /* Optional: adjust for emphasis */
 }
 
 /* code */
@@ -41,14 +56,55 @@ blockquote {
   padding: 3px 1em 3px;
 }
 
+/* --------- TABLE */
 table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+    width: auto;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    background-color: white;
+    border-collapse: collapse;
+    margin-left: 0;
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+th, td {
+    padding: 10px; /* Adds space inside table cells */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove any cell borders */
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    table, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #f4f4f4;
+        padding: 10px 5px;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td {
+        padding: 10px 5px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+
+/* --------- TABLE */
+
+
 
 
 .subheading {
@@ -60,8 +116,8 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 /* Publish icon */
 .pubthumb {
   float: left;
-  width: 55px;
-  height: 90px;
+  width: 75px;
+  height: 110px;
   margin-right: 10px;
 }
 
@@ -103,11 +159,27 @@ span.d-block {
 
 
 /* Adjust the profile image for mobile */
+/* .profile-img { */
+/*   display: block; /* Remove float and center the image */ */
+/*   margin: 0 auto; /* Center the image */ */
+/*   max-width: 33%; /* Set a max-width for all screen sizes */ */
+/*   width: auto; */
+/* } */
+
 .profile-img {
-  display: block; /* Remove float and center the image */
-  margin: 0 auto; /* Center the image */
-  max-width: 33%; /* Set a max-width for all screen sizes */
-  width: auto;
+  width: 100%;
+  max-width: 300px; /* Default size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    max-width: 200px; /* Slightly larger on smaller screens */
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 
@@ -215,20 +287,62 @@ span.d-block {
 
 /* This will target each reference within the list */
 .reference-list {
-  display: flex;
-  justify-content: center; /* This centers the references horizontally */
-  flex-wrap: wrap; /* This allows references to wrap onto the next line */
-  gap: 1em; /* Space between references */
+  display: inline;
+  justify-content: center; /* Centers the references horizontally */
+  flex-wrap: wrap; /* Allows references to wrap onto the next line if needed */
+  gap: 2em; /* Space between references */
 }
 
 /* This targets each reference item */
 .reference {
-  text-align: center; /* Center the text inside each reference */
+  text-align: center; /* Centers the text inside each reference */
   padding: 0 10px; /* Padding on the sides of each reference */
 }
 
+/* Responsive design for small screens */
 @media (max-width: 768px) {
   .reference-list {
-    flex-direction: row; /* Stack the references vertically on small screens */
+    flex-direction: column; /* Stack the references vertically on small screens */
+    align-items: center; /* Center items when stacked */
+  }
+}
+
+
+.social-icons a {
+  float: right;
+  display:inline-block;
+  height:2.4rem;
+  width:2.4rem;
+  background-color:transparent;
+  color:black !important;
+  border-radius:100%;
+  text-align:center;
+  font-size:1.7rem;
+  line-height:2.5rem;
+  margin-right:1rem
+}
+.social-icons a:last-child {
+  margin-right:0
+}
+.social-icons a:hover {
+  background-color:white;
+  color:black;
+  transform:scale(1.2)
+}
+
+.third {
+  width: 45%;
+  float: left;
+  /* Add flexbox properties */
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .third {
+    width: 100%;
+    margin: 10px 0;
+    float: none;
   }
 }
