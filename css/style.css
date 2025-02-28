@@ -117,7 +117,7 @@ th {
 .pubthumb {
   float: left;
   width: 75px;
-  height: 110px;
+  height: auto; /*110px; */
   margin-right: 10px;
 }
 
