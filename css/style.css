@@ -121,6 +121,55 @@ th {
   margin-right: 10px;
 }
 
+.scholar-citation-badge {
+  display: inline-flex;
+  margin-left: 0.45rem;
+  vertical-align: middle;
+}
+
+.scholar-citation-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid #d4d9e3;
+  background-color: #f7f9fc;
+  border-radius: 999px;
+  color: #24324a;
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.2rem 0.45rem 0.2rem 0.35rem;
+  white-space: nowrap;
+}
+
+.scholar-citation-chip::before {
+  content: "GS";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  background-color: #1f5aa6;
+  color: #ffffff;
+  font-size: 0.55rem;
+  font-weight: 700;
+}
+
+.scholar-citation-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.scholar-citation-link:hover {
+  text-decoration: underline;
+}
+
+.scholar-citation-chip.is-loading,
+.scholar-citation-chip.is-unavailable {
+  color: #576580;
+  border-style: dashed;
+}
+
 
 
 span.d-block {
