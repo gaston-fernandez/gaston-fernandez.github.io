@@ -346,3 +346,49 @@ span.d-block {
     float: none;
   }
 }
+.paper-actions {
+  font-size: 80%;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.versions-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.versions-dropdown summary {
+  cursor: pointer;
+  list-style: none;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.versions-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.versions-menu {
+  position: absolute;
+  z-index: 10;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  min-width: 230px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.versions-menu a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.versions-menu a:hover {
+  text-decoration: underline;
+}
