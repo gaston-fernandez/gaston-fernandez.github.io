@@ -392,3 +392,27 @@ span.d-block {
 .versions-menu a:hover {
   text-decoration: underline;
 }
+.homepage-buttons {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.homepage-buttons a {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #222;
+  border-radius: 6px;
+  color: #222;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+
+.homepage-buttons a:hover {
+  background: #222;
+  color: white;
+}
