@@ -369,7 +369,7 @@ span.d-block {
   cursor: pointer;
   display: inline;
   list-style: none;
-  color: #06c;
+  color: rgb(0, 0, 238);
   text-decoration: underline;
 }
 
