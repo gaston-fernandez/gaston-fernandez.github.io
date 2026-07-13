@@ -346,12 +346,18 @@ span.d-block {
     float: none;
   }
 }
+.publication {
+  margin-bottom: 2.2rem;
+  overflow: visible;
+}
+
 .paper-actions {
   font-size: 80%;
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  align-items: baseline;
   gap: 0.25rem;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .versions-dropdown {
@@ -361,8 +367,9 @@ span.d-block {
 
 .versions-dropdown summary {
   cursor: pointer;
+  display: inline;
   list-style: none;
-  color: inherit;
+  color: #06c;
   text-decoration: underline;
 }
 
@@ -372,25 +379,20 @@ span.d-block {
 
 .versions-menu {
   position: absolute;
-  z-index: 10;
-  margin-top: 0.35rem;
-  padding: 0.55rem 0.7rem;
+  top: 1.4em;
+  left: 0;
+  z-index: 100;
   min-width: 230px;
+  padding: 0.45rem 0.6rem;
   background: white;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   display: grid;
-  gap: 0.35rem;
+  gap: 0.3rem;
 }
 
 .versions-menu a {
   white-space: nowrap;
-  text-decoration: none;
-}
-
-.versions-menu a:hover {
-  text-decoration: underline;
 }
 .homepage-buttons {
   display: flex;
